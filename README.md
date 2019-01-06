@@ -25,3 +25,7 @@ npm start
 > Have fun!
 
 Please use this template as a base for your ES6 API projects so you have more time to drink coffee.
+
+## License
+
+MIT
