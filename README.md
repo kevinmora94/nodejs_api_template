@@ -28,6 +28,8 @@ npm start
 
 ## Contributing
 
+If you have any change/update request, please don't hesitate to contribute.
+
 - Fork it!
 - Create your feature branch:
   `git checkout -b my-new-feature`
