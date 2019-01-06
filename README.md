@@ -1,4 +1,6 @@
-# ES6 and Express REST API Template
+## ES6 and Express REST API Template
+
+[![License](http://img.shields.io/badge/license-MIT-brightgreen.svg)](https://github.com/kevinmora94/nodejs_api_template/blob/master/LICENSE)
 
 Basic NodeJS rest API Template
 
@@ -14,7 +16,7 @@ Live Reload on development environment with [nodemon](https://github.com/remy/no
 
 Please use this template as a base for your ES6 API projects so you have more time to drink coffee ☕️.
 
-## Getting Started
+### Getting Started
 
 ```
 git clone https://github.com/kevinmora94/nodejs_api_template
@@ -32,7 +34,7 @@ npm run prod
 
 > Have fun!
 
-## Contributing
+### Contributing
 
 If you have any change/update request, please don't hesitate to contribute.
 
@@ -43,6 +45,6 @@ If you have any change/update request, please don't hesitate to contribute.
 - Push to your feature branch: `git push origin my-new-feature`
 - Submit a pull request ❤️
 
-## License
+### License
 
 MIT
