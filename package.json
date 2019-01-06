@@ -8,9 +8,8 @@
   "repository": "https://github.com/kevinmora94/nodejs_api_template",
   "scripts": {
     "build": "babel src --out-dir dist",
-    "watch": "chokidar 'src' -c 'npm run build'",
-    "run": "npm run build && nodemon dist/index.js --watch",
-    "start": "run-p run watch"
+    "prod": "npm run build && node dist",
+    "start": "nodemon src/index.js -w src --exec babel-node --presets babel-preset-env"
   },
   "dependencies": {
     "axios": "^0.18.0",
@@ -18,10 +17,8 @@
     "babel-core": "^7.0.0-bridge.0",
     "babel-jest": "^22.4.3",
     "babel-preset-env": "^1.7.0",
-    "chokidar-cli": "^1.2.1",
     "cors": "^2.8.5",
-    "express": "^4.16.4",
-    "npm-run-all": "^4.1.5"
+    "express": "^4.16.4"
   },
   "devDependencies": {
     "nodemon": "^1.18.9",

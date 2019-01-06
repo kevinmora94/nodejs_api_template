@@ -8,6 +8,8 @@ Code formatting via [Prettier](https://github.com/prettier/prettier)
 
 [airbnb](https://github.com/airbnb/javascript) code convention via [eslint](https://github.com/eslint/eslint)
 
+Live Reload on development environment with [nodemon](https://github.com/remy/nodemon)
+
 ---
 
 Please use this template as a base for your ES6 API projects so you have more time to drink coffee ☕️.
@@ -21,7 +23,11 @@ cd nodejs_api_template
 
 npm install
 
+// Start on development environment
 npm start
+
+// Start on production
+npm run prod
 ```
 
 > Have fun!
