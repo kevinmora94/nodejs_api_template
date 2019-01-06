@@ -10,6 +10,8 @@ Code formatting via [Prettier](https://github.com/prettier/prettier)
 
 ---
 
+Please use this template as a base for your ES6 API projects so you have more time to drink coffee ☕️.
+
 ## Getting Started
 
 ```
@@ -24,7 +26,14 @@ npm start
 
 > Have fun!
 
-Please use this template as a base for your ES6 API projects so you have more time to drink coffee.
+## Contributing
+
+- Fork it!
+- Create your feature branch:
+  `git checkout -b my-new-feature`
+- Commit your changes: `git commit -m 'feat(new-feature): my new feature code'`
+- Push to your feature branch: `git push origin my-new-feature`
+- Submit a pull request ❤️
 
 ## License
 
