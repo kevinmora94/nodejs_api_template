@@ -20,7 +20,7 @@ export const error = (res, err) => {
  */
 export const success = (res, result) => {
   const rs = {};
-  rs.status = 'ok';
+  rs.status = 200;
 
   // if result object is provided, return it, else just success.
   if (result !== undefined || result != null) {
@@ -28,6 +28,5 @@ export const success = (res, result) => {
   }
 
   res.type('json');
-  res.status = 200;
   res.json(rs);
 };
