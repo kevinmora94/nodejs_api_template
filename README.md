@@ -48,5 +48,3 @@ If you have any change/update request, please don't hesitate to contribute.
 ### License
 
 MIT
-
-JUST A TEST
