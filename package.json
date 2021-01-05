@@ -12,7 +12,7 @@
     "start": "nodemon src/index.js -w src --exec babel-node --presets babel-preset-env"
   },
   "dependencies": {
-    "axios": "^0.18.1",
+    "axios": "^0.21.1",
     "babel-cli": "^6.26.0",
     "babel-core": "^7.0.0-bridge.0",
     "babel-jest": "^22.4.3",
